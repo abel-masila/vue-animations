@@ -5,6 +5,7 @@ import List from './views/List.vue'
 import Drawer from './views/Drawer.vue'
 import Simple from './views/Simple.vue'
 import Stagger from './views/Stagger.vue'
+import State from './views/State.vue'
 
 Vue.use(Router)
 
@@ -45,6 +46,11 @@ export default new Router({
       path: '/stagger',
       name: 'stagger',
       component: Stagger
+    },
+    {
+      path: '/state',
+      name: 'state',
+      component: State
     }
   ]
 })
