@@ -6,6 +6,7 @@ import Drawer from './views/Drawer.vue'
 import Simple from './views/Simple.vue'
 import Stagger from './views/Stagger.vue'
 import State from './views/State.vue'
+import Timeline from './views/Timeline.vue'
 
 Vue.use(Router)
 
@@ -51,6 +52,11 @@ export default new Router({
       path: '/state',
       name: 'state',
       component: State
+    },
+    {
+      path: '/timeline',
+      name: 'timeline',
+      component: Timeline
     }
   ]
 })
