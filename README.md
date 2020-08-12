@@ -1,4 +1,4 @@
-# animating-vue
+# vue-animations
 
 ## Project setup
 
